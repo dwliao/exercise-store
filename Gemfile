@@ -21,7 +21,10 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem "awesome_rails_console"
+
 gem "devise"
+gem "bootstrap-sass"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
