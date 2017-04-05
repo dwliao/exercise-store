@@ -25,6 +25,7 @@ gem "awesome_rails_console"
 
 gem "devise"
 gem "bootstrap-sass"
+gem "simple_form"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
