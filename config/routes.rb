@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   root "products#index"
 
+  resources :carts
+
   namespace :admin do
     resources :products
     resources :users do
