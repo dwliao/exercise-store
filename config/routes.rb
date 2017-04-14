@@ -4,7 +4,11 @@ Rails.application.routes.draw do
 
   root "products#index"
 
-  resources :carts
+  resources :carts do
+    collection do
+      delete :clean
+    end
+  end
 
   namespace :admin do
     resources :products
@@ -21,5 +25,7 @@ Rails.application.routes.draw do
       post :add_to_cart
     end
   end
+
+  resources :items, controller: "cart_items"
 
 end
