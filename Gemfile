@@ -30,6 +30,9 @@ gem "carrierwave"
 gem "mini_magick"
 gem "font-awesome-rails"
 gem "aasm"
+gem "roadie"
+
+gem "letter_opener", group: :development
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
